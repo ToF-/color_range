@@ -4,4 +4,13 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Args	/Users/tof/Coding/color_range/src/main.rs	/^struct Args {$/;"	s
+Color	/Users/tof/Coding/color_range/src/main.rs	/^pub struct Color {$/;"	s
+ColorRange	/Users/tof/Coding/color_range/src/main.rs	/^pub struct ColorRange {$/;"	s
+ParseColorRangeError	/Users/tof/Coding/color_range/src/main.rs	/^pub struct ParseColorRangeError;$/;"	s
+default	/Users/tof/Coding/color_range/src/main.rs	/^    pub fn default() -> Self {$/;"	f
+fmt	/Users/tof/Coding/color_range/src/main.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+from_string	/Users/tof/Coding/color_range/src/main.rs	/^    pub fn from_string(s: &str) -> Result<Self, ParseColorRangeError> {$/;"	f
+from_string	/Users/tof/Coding/color_range/src/main.rs	/^    pub fn from_string(s: &str) -> Result<Self, ParseIntError> {$/;"	f
 main	/Users/tof/Coding/color_range/src/main.rs	/^fn main() {$/;"	f
+matches	/Users/tof/Coding/color_range/src/main.rs	/^    pub fn matches(&self, color: Color) -> bool {$/;"	f
